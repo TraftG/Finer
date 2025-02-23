@@ -1,9 +1,11 @@
 export function useTelegram() {
-    const tg = typeof window !== 'undefined' && window.Telegram ? window.Telegram.WebApp : null;
-
+    const tg = window.Telegram?.WebApp;
+  
     return {
-        tg,
-        user: tg?.initDataUnsafe?.user,
-        
+      tg: tg || {},
+      user: tg?.initDataUnsafe?.user || null,
     };
-}
+  }
+
+
+  

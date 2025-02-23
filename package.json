@@ -9,6 +9,9 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.47.14",
+    "@tanstack/vue-query": "^5.64.1",
+    "@telegram-apps/sdk-vue": "^1.0.15",
+    "@ton/crypto": "^3.3.0",
     "@tonconnect/ui": "^2.0.11",
     "@townsquarelabs/ui-vue": "^2.0.11-beta.0",
     "core-js": "^3.8.3",
@@ -17,7 +20,8 @@
     "ton-ui-vue": "^0.1.5",
     "vue": "^3.2.13",
     "vue-demi": "^0.14.10",
-    "vue-router": "^4.5.0"
+    "vue-router": "^4.5.0",
+    "vue-tg": "^0.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
